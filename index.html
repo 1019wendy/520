@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>康熙來了問答大賽</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- SweetAlert2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">康熙來了問答大賽</h1>
+        
+        <div class="game-container">
+            <div id="start-screen" class="text-center">
+                <h2>歡迎來到康熙來了問答大賽</h2>
+                <button id="start-btn" class="btn btn-primary btn-lg">開始遊戲</button>
+            </div>
+
+            <div id="quiz-screen" class="d-none">
+                <div class="score-board mb-3">
+                    分數: <span id="score">0</span>
+                </div>
+                <div class="question-container">
+                    <h3 id="question-text">問題載入中...</h3>
+                    <div id="options-container" class="mt-3">
+                        <!-- 選項會在這裡動態生成 -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="result-screen" class="text-center d-none">
+                <h2>遊戲結束!</h2>
+                <p>最終分數: <span id="final-score">0</span></p>
+                <button id="restart-btn" class="btn btn-primary">再玩一次</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
