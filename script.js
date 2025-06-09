@@ -24,6 +24,36 @@ const questions = [
         question: "小S在節目中最常說的口頭禪是什麼？",
         options: ["真的假的", "幹嘛啦", "哎呀媽呀", "討厭啦"],
         correctAnswer: 1
+    },
+    {
+        question: "康熙來了的第一集主題是什麼？",
+        options: ["明星的秘密", "時尚穿搭", "美食特輯", "家庭故事"],
+        correctAnswer: 0
+    },
+    {
+        question: "康熙來了的節目名稱由誰命名？",
+        options: ["蔡康永", "徐熙娣", "製作人", "觀眾投票"],
+        correctAnswer: 2
+    },
+    {
+        question: "康熙來了的節目時長通常是多少分鐘？",
+        options: ["30分鐘", "45分鐘", "60分鐘", "90分鐘"],
+        correctAnswer: 2
+    },
+    {
+        question: "康熙來了的經典單元之一是什麼？",
+        options: ["康熙大明星", "康熙美食", "康熙時尚", "康熙家庭"],
+        correctAnswer: 0
+    },
+    {
+        question: "康熙來了的節目中，蔡康永最常做的事情是什麼？",
+        options: ["講笑話", "分析心理", "主持辯論", "分享故事"],
+        correctAnswer: 3
+    },
+    {
+        question: "康熙來了的節目中，哪位嘉賓曾創下最多次上節目的紀錄？",
+        options: ["蔡康永", "徐熙娣", "陳漢典", "連戰"],
+        correctAnswer: 3
     }
 ];
 
